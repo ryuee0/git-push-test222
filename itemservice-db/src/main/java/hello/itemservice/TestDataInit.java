@@ -19,7 +19,7 @@ public class TestDataInit {
      */
     @EventListener(ApplicationReadyEvent.class)
     public void initData() {
-        log.info("test data init");
+        log.info("test data init2222");
         itemRepository.save(new Item("itemA", 10000, 10));
         itemRepository.save(new Item("itemB", 20000, 20));
     }
